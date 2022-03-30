@@ -281,8 +281,7 @@ public class Main1 {
 					
 					ArrayList<Integer> employees=new ArrayList<Integer>();
 					ListIterator<Integer> employee=employees.listIterator();
-			
-
+					
 					while(true){
 						query5="SELECT emp_id FROM PERSONAL_DETAILS "
 								+"WHERE reporting_to=\""+currentReportingTo+"\"";
